@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "userName": "CUBILLOSCRISTIAN",
+      "name": "Cristian Cubillos",
+      "description": " Hello!, I'm Cristian Cubillos, a student in my 8th-semester with a passion for programming and app development. I love delving into the world of software engineering and learning how to create amazing apps for both mobile devices and backend systems."
+    },
+    {
+      "userName": "JasonEstrada",
+      "name": "Jason Estrada",
+      "description": "Hello! I am Jason, I am a dedicated 7th-semester Systems Engineering student, aged 20, currently serving as a Data Engineer at Jamar. Passionate about technology, I thrive in leveraging data for innovative solutions."
+    },
+    {
+      "userName": "NilsonHasbun",
+      "name": "Nilson Hasbun",
+      "description": "Hello! I am Nilson Diaz, I am a dedicated 9th-semester Systems Engieneering student, aged 24, I am currently learning other programming languages to improve my knowledge."
+    },
+    {
+      "userName": "david0131",
+      "name": "David Escorcia",
+      "description": "Hello! I am David Escorcia, I am a dedicated 9th-semester Systems Engieneering student, aged 22, I like movies of almost every genre, marvel movies are my favorite. I'm currently learning frontend on my own, and I want to learn about artificial intelligence."
+    },
+    {
+      "userName": "Jcoll05",
+      "name": "Julian Coll",
+      "description": "Hello! I am Julian Coll, I am coursing 8th-Semestre in Systems Engineering, aged 22, I am interested in Cybersecurity, Pentesting and technology. I got experience as a freelancer making websites for clients on the exterior."
+    }
+  ]
+}
