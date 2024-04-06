@@ -1,6 +1,5 @@
 import { ProfileCard } from "./ProfileCard";
 import { users } from "../assets/user.json";
-import backgroundSVG from "../assets/World Map.svg";
 
 import React, { useRef, useState } from "react";
 // Import Swiper React components
@@ -17,7 +16,7 @@ import { EffectCards } from "swiper/modules";
 
 export function Members() {
   return (
-    <div >
+    <div>
       <Swiper
         effect={"cards"}
         grabCursor={true}

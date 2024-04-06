@@ -1,10 +1,11 @@
 import { Members } from "../components/MembersCards";
 import { NavBar } from "../components/NavBar";
+import { SectionModel } from "../components/SectionModel";
+import { Model } from "./Model";
 
 export function Home() {
-  // returns the JSX of the Home component
   return (
-    <section className="">
+    <section>
       <NavBar />
       <div className="container px-4 mx-auto max-w-8xl">
         <div className="flex flex-wrap justify-between pt-20 sm:pl-20 sm:-m-6">
@@ -32,7 +33,7 @@ export function Home() {
             <div className="flex flex-wrap mb-20 -m-3">
               <div className="w-full p-3 lg:w-auto">
                 <a
-                  href="/github-pages/#/Charts"
+                  href="/github-pages/#/Model"
                   className="font-heading block w-full transform hover:scale-[1.02] transition ease-in-out px-6 py-4 text-base bg-gradient-to-r from-orange-600 via-fuchsia-500 text-gray-100 font-medium to-indigo-600 rounded-md gradientHover"
                 >
                   Go to charts
@@ -54,6 +55,7 @@ export function Home() {
             </div>
           </div>
         </div>
+        <Model />
       </div>
     </section>
   );
