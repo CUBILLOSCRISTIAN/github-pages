@@ -2,16 +2,16 @@ import { div } from "@tensorflow/tfjs";
 
 export function SectionModel() {
   return (
-    <div className=" flex items-center justify-center ">
-      <div className="z-10 w-full p-6  text-center ">
-        <h1 className="mt-4 mb-5 text-center text-4xl font-medium text-white font-heading md:text-6xl xl:text-11xl">
+    <div className=" ">
+      <div className="z-10 w-full p-6  ">
+        <h1 className="mt-4 mb-5 text-4xl font-medium text-white font-heading md:text-6xl xl:text-11xl">
           Analyzes{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-600 to-indigo-600">
             {" "}
             model{" "}
           </span>
         </h1>
-        <p className="w-full text-gray-100 mb-9 sm:text-base opacity-60">
+        <p className="w-full text-gray-100 mb-9 sm:text-base opacity-60 text">
           The following code illustrates the creation of a machine learning
           model for predicting temperature using an open dataset of temperature
           data. This model aims to analyze historical temperature records and
@@ -22,7 +22,7 @@ export function SectionModel() {
           facilitating informed decision-making in various domains such as
           agriculture, energy management, and urban planning.
         </p>
-        <div className="flex flex-wrap mb-20 -m-3 justify-center">
+        <div className="flex flex-wrap mb-20 -m-3 justify-end">
           <div className="w-full p-3 lg:w-auto">
             <a
               href="/github-pages/#/Model"
