@@ -25,7 +25,7 @@ export function SectionModel() {
         <div className="flex flex-wrap mb-20 -m-3 justify-end">
           <div className="w-full p-3 lg:w-auto">
             <a
-              href="/github-pages/#/Model"
+              href="https://colab.research.google.com/drive/12nqbTfMHzyB9zBSiuhvWmnX5QBDwJQjj?usp=sharing"
               className="font-heading block w-full transform hover:scale-[1.02] transition ease-in-out px-6 py-4 text-base bg-gradient-to-r from-orange-600 via-fuchsia-500 text-gray-100 font-medium to-indigo-600 rounded-md gradientHover"
             >
               Go to code
