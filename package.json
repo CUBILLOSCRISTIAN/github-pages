@@ -16,9 +16,12 @@
     "@tensorflow/tfjs": "^4.17.0",
     "echarts-for-react": "^3.0.2",
     "framer-motion": "^11.0.20",
+    "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.22.3",
+    "react-simple-maps": "^3.0.0",
     "react-syntax-highlighter": "^15.5.0",
     "regression": "^2.0.1",
     "swiper": "^11.0.7"

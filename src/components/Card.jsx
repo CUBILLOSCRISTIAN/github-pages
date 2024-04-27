@@ -7,6 +7,9 @@ import ReactECharts from "echarts-for-react";
 import { optionsGauge } from "../charts/OptionsGauge.jsx";
 import { optionMapCalendar } from "../charts/OptionsMapCalendar.jsx";
 
+import { MapaCalor } from "../components/MapaCalor";
+import temperaturas from "../charts/DatosDepartamentos.json";
+
 export function CardCharts() {
   return (
     <div className="w-full gap-2 grid grid-cols-12 grid-rows-2 px-8">
@@ -97,7 +100,17 @@ export function CardCharts() {
         isBlurred
         className="border-none bg-background/80 dark:bg-default-100/25 col-span-12 sm:col-span-5 h-[300px]"
         shadow="sm"
-      ></Card>
+      >
+        <CardHeader className="absolute z-10 top-1 flex-col !items-start">
+          <p className="text-tiny text-white/60 uppercase font-bold">Heatmap</p>
+          <h4 className="text-white font-medium text-large">
+            Calendar Heatmap
+          </h4>
+        </CardHeader>
+        <div className="p-7">
+        <MapaCalor temperaturas={temperaturas} />
+        </div>
+      </Card>
 
       {/* other card */}
       <Card

@@ -2,6 +2,8 @@ import React from "react";
 import { NavBar } from "../components/NavBar";
 
 import { CardCharts } from "../components/Card";
+import { Card } from "@nextui-org/react";
+
 
 export function Charts() {
   return (
