@@ -17,7 +17,7 @@ export function MapaCalor({ temperaturas }) {
     } else {
         return "#FF0000";
     }
-};
+  };
 
   // Define el estilo del GeoJSON basado en la temperatura
   const style = (feature) => {
