@@ -6,16 +6,18 @@ import colombiaGeojson from "../charts/colombia.json"; // Importa el GeoJSON de 
 export function MapaCalor({ temperaturas }) {
   // Define una función para obtener el color basado en la temperatura
   const getColor = (temp) => {
-    // Define aquí una lógica para asignar un color basado en la temperatura
-    // Por ejemplo, puedes usar una escala de color de azul a rojo
-    return temp > 30
-      ? "#ff0000"
-      : temp > 25
-      ? "#ff8000"
-      : temp > 20
-      ? "#ffff00"
-      : "#00ff00";
-  };
+    if (temp === null || temp === undefined) {
+        return "#808080";
+    } else if (temp >= 0 && temp <= 16) {
+        return "#6495ED";
+    } else if (temp > 16 && temp <= 26) {
+        return "#87CEEB";
+    } else if (temp > 26 && temp <= 32) {
+        return "#FFD700";
+    } else {
+        return "#FF6347";
+    }
+};
 
   // Define el estilo del GeoJSON basado en la temperatura
   const style = (feature) => {
