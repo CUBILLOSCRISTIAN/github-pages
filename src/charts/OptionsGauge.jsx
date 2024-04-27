@@ -63,7 +63,7 @@ const optionsGauge = {
       },
       data: [
         {
-          value: 10,
+          value: 20.9,
         },
       ],
     },
