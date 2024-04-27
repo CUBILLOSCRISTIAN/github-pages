@@ -1,16 +1,13 @@
-import React from "react";
 import { Card, CardHeader } from "@nextui-org/react";
-import { Selected } from "./selected";
 import ReactECharts from "echarts-for-react";
+import React from "react";
 
 // Import the options for the charts
 import { optionsGauge } from "../charts/OptionsGauge.jsx";
-import { optionMapCalendar } from "../charts/OptionsMapCalendar.jsx";
 import { optionTemeperature } from "../charts/OptionsTemperature.jsx";
 
-import { MapaCalor } from "../components/MapaCalor";
 import temperaturas from "../charts/DatosDepartamentos.json";
-import { div } from "@tensorflow/tfjs";
+import { MapaCalor } from "../components/MapaCalor";
 
 export function CardCharts() {
   return (
