@@ -13,7 +13,7 @@ export function MapaCalor({ temperaturas }) {
     } else if (temp > 20 && temp <= 25) {
         return "#FFCC00";
     } else if (temp > 25 && temp <= 33) {
-        return "#FF1A1A";
+        return "#EF6C00";
     }
   };
 
