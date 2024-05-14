@@ -7,7 +7,7 @@ import { oneDark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export function ModelRandomForest() {
   const code_string =
-    "# Crear y entrenar el modelo de Random Forest\nrf_model = RandomForestRegressor(random_state=42)\nrf_model.fit(X_train, y_train)\n\n# Realizar predicciones en los datos de prueba\ny_pred_rf = rf_model.predict(X_test)\n\n# Obtener el puntaje (score) del modelo Random Forest en los datos de prueba\nscore_rf = rf_model.score(X_test, y_test)";
+    "# Crear y entrenar el modelo de Random Forest\nrf_model = RandomForestRegressor(random_state=42)\nrf_model.fit(X_train, y_train)\n\n# Realizar predicciones en los datos de prueba\ny_pred_rf = rf_model.predict(X_test)\n\n# Score del modelo Random Forest en los datos de prueba\nscore_rf = rf_model.score(X_test, y_test)";
 
   return (
     <div className="flex flex-wrap justify-between pt-20 sm:pl-20 sm:-m-6">
