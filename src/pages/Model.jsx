@@ -12,11 +12,13 @@ export function Model() {
     <section>
       <SectionModel />
       <div className="container px-4 mx-auto max-w-8xl">
+        <h1>Modelo 1</h1>
         <SectionModelBody1 />
         <LenealSectionModel2 />
         <LinealModelCharts />
         <br />
         <LinealCoeficients />
+        <h1>Modelo 2</h1>
         <ModelRandomForest />
       </div>
     </section>
