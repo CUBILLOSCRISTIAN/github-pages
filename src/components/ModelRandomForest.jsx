@@ -44,7 +44,6 @@ export function ModelRandomForest() {
             performance score on that test data.
           </p>
         </div>
-      </div>
     </div>
     <div className="flex flex-wrap justify-between pt-20 sm:pl-20 sm:-m-6">
       <div className="circlePosition w-[200px] h-[200px] left-[10%] absolute bg-[#8326fd] rounded-[100%] z-1 blur-[80px] overflow-x-hidden"></div>
@@ -62,5 +61,6 @@ export function ModelRandomForest() {
           </div>
         </div>
       </div>
+    </div>
   );
 }
