@@ -10,23 +10,7 @@ export function ModelRandomForest() {
     "# Crear y entrenar el modelo de Random Forest\nrf_model = RandomForestRegressor(random_state=42)\nrf_model.fit(X_train, y_train)\n\n# Realizar predicciones en los datos de prueba\ny_pred_rf = rf_model.predict(X_test)\n\n# Score del modelo Random Forest en los datos de prueba\nscore_rf = rf_model.score(X_test, y_test)";
 
   return (
-    <div className="flex flex-wrap justify-between pt-20 sm:pl-20 sm:-m-6">
-      <div className="circlePosition w-[200px] h-[200px] left-[10%] absolute bg-[#8326fd] rounded-[100%] z-1 blur-[80px] overflow-x-hidden"></div>
-      <div className="relative z-10 w-full lg:w-7/12 xl:w-1/2">
-        <div className="pr-2 mx-auto -mt-16 max-w-max">
-          <div className="flex items-center justify-start">
-            <div className="mt-10">
-              <SyntaxHighlighter language="python" style={oneDark}>
-                {code_string}
-              </SyntaxHighlighter>
-              <p className="inline px-3 py-1 mb-5 text-xs font-medium text-gray-50F border-2 rounded-lg font-heading sm:text-sm opacity-40 border-white/10">
-                Python
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="relative z-10 w-full lg:w-5/12 xl:w-1/2 p-6 sm:-mt-10">
+    <div className="relative z-10 w-full lg:w-5/12 xl:w-1/2 p-6 sm:-mt-10">
         <p className="inline px-3 py-1 mb-5 text-xs font-medium text-gray-400 border-2 rounded-lg font-heading sm:text-sm opacity-40 border-white/10">
           Explanation
         </p>
@@ -62,5 +46,21 @@ export function ModelRandomForest() {
         </div>
       </div>
     </div>
+    <div className="flex flex-wrap justify-between pt-20 sm:pl-20 sm:-m-6">
+      <div className="circlePosition w-[200px] h-[200px] left-[10%] absolute bg-[#8326fd] rounded-[100%] z-1 blur-[80px] overflow-x-hidden"></div>
+      <div className="relative z-10 w-full lg:w-7/12 xl:w-1/2">
+        <div className="pr-2 mx-auto -mt-16 max-w-max">
+          <div className="flex items-center justify-start">
+            <div className="mt-10">
+              <SyntaxHighlighter language="python" style={oneDark}>
+                {code_string}
+              </SyntaxHighlighter>
+              <p className="inline px-3 py-1 mb-5 text-xs font-medium text-gray-50F border-2 rounded-lg font-heading sm:text-sm opacity-40 border-white/10">
+                Python
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
   );
 }
