@@ -5,6 +5,7 @@ import { LinealModelValues } from "../components/LinelModelValues";
 import { LenealSectionModel2 } from "../components/LenealSectionModel2";
 import { SectionModelBody1 } from "../components/SectionModelBody1";
 import { LinealCoeficients } from "../components/LinealCoeficients";
+import { ModelRandomForest } from "../components/ModelRandomForest";
 
 export function Model() {
   return (
@@ -16,6 +17,7 @@ export function Model() {
         <LinealModelCharts />
         <br />
         <LinealCoeficients />
+        <ModelRandomForest />
       </div>
     </section>
   );
